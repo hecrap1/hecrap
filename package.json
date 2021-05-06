@@ -1,0 +1,12 @@
+{
+    "name": "ejemplo1",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "Ejemplo.json",
+            "credentialsFile": "Ejemplo_cred.json"
+        }
+    }
+}
