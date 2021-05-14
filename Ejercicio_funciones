@@ -1,0 +1,78 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyN+YCK7GnNONN23tAll25SJ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/hecrap1/hecrap/blob/main/Ejercicio_funciones\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "p6gsOD8cgeJr",
+        "outputId": "e9323f1a-3a62-4646-c328-9c8424e60140"
+      },
+      "source": [
+        "def r_cuadrada(x):\n",
+        "  \"\"\"\n",
+        "  Colocar toda la ayuda que consideren necesaria\n",
+        "  La función r_cuadrada retorna la raiz de un número x.\n",
+        "  \"\"\"\n",
+        "\n",
+        "  a = x**(1/2)\n",
+        "  b=-a\n",
+        "  return a,b\n",
+        "\n",
+        "#Para correr la función definida anteriormente\n",
+        "r_cuadrada (169)\n",
+        "\n",
+        "#Para imprimir la ayuda de la función\n",
+        "r_cuadrada?\n",
+        "\n",
+        "import numpy as np\n",
+        "raiz = lambda var:(np.sqrt(var),-np.sqrt(var))\n",
+        "raiz (169)\n",
+        "\n"
+      ],
+      "execution_count": 29,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "(13.0, -13.0)"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 29
+        }
+      ]
+    }
+  ]
+}
