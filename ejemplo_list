@@ -1,0 +1,80 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyN1sTVJYlb4eKFzi70TZsX/",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/hecrap1/hecrap/blob/main/ejemplo_list\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "background_save": true
+        },
+        "id": "nfsWO3Z3YCPj",
+        "outputId": "7d5d194b-a4f7-4dff-eeb9-8dd138c3d40c"
+      },
+      "source": [
+        "una_lista = ['a','b','c']\n",
+        "print (una_lista)\n",
+        "\n",
+        "list (range(0,18,2))\n",
+        "\n",
+        "a = []\n",
+        "for i in range (9):\n",
+        "  b=i*2\n",
+        "  a.append (b)\n",
+        "a\n",
+        "\n",
+        "import numpy as np # libreria numerica de python\n",
+        "arr=np.asarray (a)\n",
+        "arr\n",
+        "\n",
+        "#Comando para ver las variables, tipo e información de los datos\n",
+        "%whos"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "['a', 'b', 'c']\n",
+            "Variable    Type       Data/Info\n",
+            "--------------------------------\n",
+            "a           list       n=9\n",
+            "arr         ndarray    9: 9 elems, type `int64`, 72 bytes\n",
+            "b           int        16\n",
+            "c           set        {1, 2, 3, 4, 5, 6}\n",
+            "d           list       n=6\n",
+            "i           int        8\n",
+            "np          module     <module 'numpy' from '/us<...>kages/numpy/__init__.py'>\n",
+            "una_lista   list       n=3\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
